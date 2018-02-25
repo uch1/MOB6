@@ -16,6 +16,11 @@ enum Side {
     case none
 }
 
+/* Tracking enum for game state */
+enum GameState {
+    case title, ready, playing, gameOver
+}
+
 func -(lhs: CGPoint, rhs: CGPoint) -> CGPoint {
     return CGPoint(x: lhs.x - rhs.x, y: lhs.y - rhs.y)
 }
@@ -32,6 +37,10 @@ class GameScene: SKScene {
     
     /* Sushi tower array */
     var sushiTower = [SushiPiece]()
+    
+    /* Game management */
+    var state: GameState = .title
+    var playButton: MSButtonNode!
     
     
     override func didMove(to view: SKView) {
@@ -50,6 +59,15 @@ class GameScene: SKScene {
 
         /* Randomize tower to just outside of the screen */
         addRandomSushiPieces(total: 10)
+        
+        /* UI game objects */
+        playButton = childNode(withName: "playButton") as! MSButtonNode
+        
+        /* Setup play button selection handler */
+        playButton.selectedHandler = {
+            /* Start game */
+            self.state = .ready
+        }
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -79,6 +97,28 @@ class GameScene: SKScene {
             // Add a new sushi piece to the top of the sushi tower
             addRandomSushiPieces(total: 1)
         }
+        
+        /* Game not ready to play */
+        if state == .gameOver || state == .title { return }
+        /* Game begins on first touch */
+        if state == .ready {
+            state = .playing
+        }
+        
+        
+        /* Grab sushi piece on top of the base sushi piece, it will always be 'first' */
+        let firstPiece = sushiTower.first as SushiPiece!
+        
+        /* Check character side against sushi piece side (this is our death collision check) */
+        if character.side == firstPiece?.side {
+            /* Drop all the sushi pieces down a place (visually) */
+            for sushiPiece in sushiTower {
+                sushiPiece.run(SKAction.move(by: CGVector(dx: 0, dy: -55), duration: 0.10))
+            }
+            gameOver()
+            /* No need to continue as player dead */
+            return
+        }
     }
     
     
@@ -93,6 +133,30 @@ class GameScene: SKScene {
             let y = (n * 55) + 215
             piece.position.y -= (piece.position.y - y) * 0.5
             n += 1
+        }
+    }
+    
+    func gameOver() {
+        /* Game over! */
+        state = .gameOver
+        /* Turn all the sushi pieces red*/
+        for sushiPiece in sushiTower {
+            sushiPiece.run(SKAction.colorize(with: UIColor.red, colorBlendFactor: 1.0, duration: 0.50))
+        }
+        /* Make the player turn red */
+        character.run(SKAction.colorize(with: UIColor.red, colorBlendFactor: 1.0, duration: 0.50))
+        /* Change play button selection handler */
+        playButton.selectedHandler = {
+            /* Grab reference to the SpriteKit view */
+            let skView = self.view as SKView!
+            /* Load Game scene */
+            guard let scene = GameScene(fileNamed:"GameScene") as GameScene! else {
+                return
+            }
+            /* Ensure correct aspect mode */
+            scene.scaleMode = .aspectFill
+            /* Restart GameScene */
+            skView?.presentScene(scene)
         }
     }
     
