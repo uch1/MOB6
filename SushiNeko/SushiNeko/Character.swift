@@ -21,6 +21,10 @@ class Character: SKSpriteNode {
                 xScale = -1
                 position.x = 252
             }
+            
+            // Load/Run the punch action
+            let punch = SKAction(named: "Punch")!
+            run(punch)
         }
     }
     
