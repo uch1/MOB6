@@ -6,4 +6,46 @@
 //  Copyright © 2018 Uchenna  Aguocha. All rights reserved.
 //
 
-import Foundation
+import SpriteKit
+
+class Runner: SKSpriteNode {
+    
+    
+    var grapple: SKSpriteNode
+    
+    override init(texture: SKTexture?, color: UIColor, size: CGSize) {
+        super.init(texture: texture, color: color, size: size)
+        
+        
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    /*
+        Runner's abilities
+        1. run
+        2. jump
+        3. swing
+        4. walk
+    */
+    
+    func run() {
+        // TODO: Define the actions needed running
+        
+    }
+    
+    func jump() {
+        
+    }
+    
+    func swing() {
+        
+    }
+    
+    func walk() {
+        
+    }
+    
+}

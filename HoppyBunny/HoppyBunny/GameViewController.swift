@@ -1,8 +1,8 @@
 //
 //  GameViewController.swift
-//  RoofTopRunner
+//  HoppyBunny
 //
-//  Created by Uchenna  Aguocha on 2/21/18.
+//  Created by Uchenna  Aguocha on 3/1/18.
 //  Copyright © 2018 Uchenna  Aguocha. All rights reserved.
 //
 
@@ -44,5 +44,12 @@ class GameViewController: UIViewController {
         }
     }
 
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Release any cached data, images, etc that aren't in use.
+    }
 
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
 }

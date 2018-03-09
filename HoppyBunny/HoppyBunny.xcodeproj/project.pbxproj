@@ -7,33 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8018219E203E55A80017F941 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8018219D203E55A80017F941 /* AppDelegate.swift */; };
-		801821A0203E55A80017F941 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8018219F203E55A80017F941 /* GameScene.sks */; };
-		801821A2203E55A80017F941 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 801821A1203E55A80017F941 /* Actions.sks */; };
-		801821A4203E55A80017F941 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801821A3203E55A80017F941 /* GameScene.swift */; };
-		801821A6203E55A80017F941 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801821A5203E55A80017F941 /* GameViewController.swift */; };
-		801821A9203E55A80017F941 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 801821A7203E55A80017F941 /* Main.storyboard */; };
-		801821AB203E55A80017F941 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 801821AA203E55A80017F941 /* Assets.xcassets */; };
-		801821AE203E55A80017F941 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 801821AC203E55A80017F941 /* LaunchScreen.storyboard */; };
-		80D419192047D99E0067D068 /* Runner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D419182047D99E0067D068 /* Runner.swift */; };
+		80D4192720488C470067D068 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D4192620488C470067D068 /* AppDelegate.swift */; };
+		80D4192920488C470067D068 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 80D4192820488C470067D068 /* GameScene.sks */; };
+		80D4192B20488C470067D068 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 80D4192A20488C470067D068 /* Actions.sks */; };
+		80D4192D20488C470067D068 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D4192C20488C470067D068 /* GameScene.swift */; };
+		80D4192F20488C470067D068 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D4192E20488C470067D068 /* GameViewController.swift */; };
+		80D4193220488C470067D068 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D4193020488C470067D068 /* Main.storyboard */; };
+		80D4193420488C470067D068 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D4193320488C470067D068 /* Assets.xcassets */; };
+		80D4193720488C470067D068 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D4193520488C470067D068 /* LaunchScreen.storyboard */; };
+		80D4193F204891F30067D068 /* Hero.sks in Resources */ = {isa = PBXBuildFile; fileRef = 80D4193E204891F30067D068 /* Hero.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8018219A203E55A80017F941 /* RoofTopRunner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoofTopRunner.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8018219D203E55A80017F941 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8018219F203E55A80017F941 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		801821A1203E55A80017F941 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		801821A3203E55A80017F941 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		801821A5203E55A80017F941 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		801821A8203E55A80017F941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		801821AA203E55A80017F941 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		801821AD203E55A80017F941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		801821AF203E55A80017F941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80D419182047D99E0067D068 /* Runner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Runner.swift; sourceTree = "<group>"; };
+		80D4192320488C470067D068 /* HoppyBunny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoppyBunny.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D4192620488C470067D068 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80D4192820488C470067D068 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		80D4192A20488C470067D068 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		80D4192C20488C470067D068 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		80D4192E20488C470067D068 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		80D4193120488C470067D068 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80D4193320488C470067D068 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80D4193620488C470067D068 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80D4193820488C470067D068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80D4193E204891F30067D068 /* Hero.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Hero.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		80182197203E55A80017F941 /* Frameworks */ = {
+		80D4192020488C470067D068 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,76 +43,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		80182191203E55A80017F941 = {
+		80D4191A20488C460067D068 = {
 			isa = PBXGroup;
 			children = (
-				8018219C203E55A80017F941 /* RoofTopRunner */,
-				8018219B203E55A80017F941 /* Products */,
+				80D4192520488C470067D068 /* HoppyBunny */,
+				80D4192420488C470067D068 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8018219B203E55A80017F941 /* Products */ = {
+		80D4192420488C470067D068 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8018219A203E55A80017F941 /* RoofTopRunner.app */,
+				80D4192320488C470067D068 /* HoppyBunny.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8018219C203E55A80017F941 /* RoofTopRunner */ = {
+		80D4192520488C470067D068 /* HoppyBunny */ = {
 			isa = PBXGroup;
 			children = (
-				8018219D203E55A80017F941 /* AppDelegate.swift */,
-				8018219F203E55A80017F941 /* GameScene.sks */,
-				801821A1203E55A80017F941 /* Actions.sks */,
-				801821A3203E55A80017F941 /* GameScene.swift */,
-				80D419182047D99E0067D068 /* Runner.swift */,
-				801821A5203E55A80017F941 /* GameViewController.swift */,
-				801821A7203E55A80017F941 /* Main.storyboard */,
-				801821AA203E55A80017F941 /* Assets.xcassets */,
-				801821AC203E55A80017F941 /* LaunchScreen.storyboard */,
-				801821AF203E55A80017F941 /* Info.plist */,
+				80D4192620488C470067D068 /* AppDelegate.swift */,
+				80D4192820488C470067D068 /* GameScene.sks */,
+				80D4192A20488C470067D068 /* Actions.sks */,
+				80D4192C20488C470067D068 /* GameScene.swift */,
+				80D4192E20488C470067D068 /* GameViewController.swift */,
+				80D4193020488C470067D068 /* Main.storyboard */,
+				80D4193320488C470067D068 /* Assets.xcassets */,
+				80D4193520488C470067D068 /* LaunchScreen.storyboard */,
+				80D4193820488C470067D068 /* Info.plist */,
+				80D4193E204891F30067D068 /* Hero.sks */,
 			);
-			path = RoofTopRunner;
+			path = HoppyBunny;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		80182199203E55A80017F941 /* RoofTopRunner */ = {
+		80D4192220488C470067D068 /* HoppyBunny */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 801821B2203E55A80017F941 /* Build configuration list for PBXNativeTarget "RoofTopRunner" */;
+			buildConfigurationList = 80D4193B20488C470067D068 /* Build configuration list for PBXNativeTarget "HoppyBunny" */;
 			buildPhases = (
-				80182196203E55A80017F941 /* Sources */,
-				80182197203E55A80017F941 /* Frameworks */,
-				80182198203E55A80017F941 /* Resources */,
+				80D4191F20488C470067D068 /* Sources */,
+				80D4192020488C470067D068 /* Frameworks */,
+				80D4192120488C470067D068 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = RoofTopRunner;
-			productName = RoofTopRunner;
-			productReference = 8018219A203E55A80017F941 /* RoofTopRunner.app */;
+			name = HoppyBunny;
+			productName = HoppyBunny;
+			productReference = 80D4192320488C470067D068 /* HoppyBunny.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		80182192203E55A80017F941 /* Project object */ = {
+		80D4191B20488C460067D068 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Uchenna  Aguocha";
 				TargetAttributes = {
-					80182199203E55A80017F941 = {
+					80D4192220488C470067D068 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 80182195203E55A80017F941 /* Build configuration list for PBXProject "RoofTopRunner" */;
+			buildConfigurationList = 80D4191E20488C460067D068 /* Build configuration list for PBXProject "HoppyBunny" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -120,58 +120,58 @@
 				en,
 				Base,
 			);
-			mainGroup = 80182191203E55A80017F941;
-			productRefGroup = 8018219B203E55A80017F941 /* Products */;
+			mainGroup = 80D4191A20488C460067D068;
+			productRefGroup = 80D4192420488C470067D068 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				80182199203E55A80017F941 /* RoofTopRunner */,
+				80D4192220488C470067D068 /* HoppyBunny */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		80182198203E55A80017F941 /* Resources */ = {
+		80D4192120488C470067D068 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				801821A9203E55A80017F941 /* Main.storyboard in Resources */,
-				801821A0203E55A80017F941 /* GameScene.sks in Resources */,
-				801821AB203E55A80017F941 /* Assets.xcassets in Resources */,
-				801821AE203E55A80017F941 /* LaunchScreen.storyboard in Resources */,
-				801821A2203E55A80017F941 /* Actions.sks in Resources */,
+				80D4193220488C470067D068 /* Main.storyboard in Resources */,
+				80D4192920488C470067D068 /* GameScene.sks in Resources */,
+				80D4193420488C470067D068 /* Assets.xcassets in Resources */,
+				80D4193F204891F30067D068 /* Hero.sks in Resources */,
+				80D4193720488C470067D068 /* LaunchScreen.storyboard in Resources */,
+				80D4192B20488C470067D068 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		80182196203E55A80017F941 /* Sources */ = {
+		80D4191F20488C470067D068 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				801821A4203E55A80017F941 /* GameScene.swift in Sources */,
-				80D419192047D99E0067D068 /* Runner.swift in Sources */,
-				801821A6203E55A80017F941 /* GameViewController.swift in Sources */,
-				8018219E203E55A80017F941 /* AppDelegate.swift in Sources */,
+				80D4192D20488C470067D068 /* GameScene.swift in Sources */,
+				80D4192F20488C470067D068 /* GameViewController.swift in Sources */,
+				80D4192720488C470067D068 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		801821A7203E55A80017F941 /* Main.storyboard */ = {
+		80D4193020488C470067D068 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				801821A8203E55A80017F941 /* Base */,
+				80D4193120488C470067D068 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		801821AC203E55A80017F941 /* LaunchScreen.storyboard */ = {
+		80D4193520488C470067D068 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				801821AD203E55A80017F941 /* Base */,
+				80D4193620488C470067D068 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -179,7 +179,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		801821B0203E55A80017F941 /* Debug */ = {
+		80D4193920488C470067D068 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -236,7 +236,7 @@
 			};
 			name = Debug;
 		};
-		801821B1203E55A80017F941 /* Release */ = {
+		80D4193A20488C470067D068 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -286,30 +286,30 @@
 			};
 			name = Release;
 		};
-		801821B3203E55A80017F941 /* Debug */ = {
+		80D4193C20488C470067D068 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 854F25WCHE;
-				INFOPLIST_FILE = RoofTopRunner/Info.plist;
+				INFOPLIST_FILE = HoppyBunny/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = UchStudio.RoofTopRunner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.UchStudio.HoppyBunny;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		801821B4203E55A80017F941 /* Release */ = {
+		80D4193D20488C470067D068 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 854F25WCHE;
-				INFOPLIST_FILE = RoofTopRunner/Info.plist;
+				INFOPLIST_FILE = HoppyBunny/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = UchStudio.RoofTopRunner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.UchStudio.HoppyBunny;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -319,25 +319,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		80182195203E55A80017F941 /* Build configuration list for PBXProject "RoofTopRunner" */ = {
+		80D4191E20488C460067D068 /* Build configuration list for PBXProject "HoppyBunny" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				801821B0203E55A80017F941 /* Debug */,
-				801821B1203E55A80017F941 /* Release */,
+				80D4193920488C470067D068 /* Debug */,
+				80D4193A20488C470067D068 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		801821B2203E55A80017F941 /* Build configuration list for PBXNativeTarget "RoofTopRunner" */ = {
+		80D4193B20488C470067D068 /* Build configuration list for PBXNativeTarget "HoppyBunny" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				801821B3203E55A80017F941 /* Debug */,
-				801821B4203E55A80017F941 /* Release */,
+				80D4193C20488C470067D068 /* Debug */,
+				80D4193D20488C470067D068 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 80182192203E55A80017F941 /* Project object */;
+	rootObject = 80D4191B20488C460067D068 /* Project object */;
 }
