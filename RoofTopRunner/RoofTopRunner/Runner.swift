@@ -23,13 +23,7 @@ class Runner: SKSpriteNode {
         fatalError("init(coder:) has not been implemented")
     }
     
-    /*
-        Runner's abilities
-        1. run
-        2. jump
-        3. swing
-        4. walk
-    */
+
     
     func run() {
         // TODO: Define the actions needed running

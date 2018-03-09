@@ -20,10 +20,14 @@ import GameplayKit
 
 class GameScene: SKScene {
 
-    var runner: SKSpriteNode?
+    var player: Character!
     
     override func didMove(to view: SKView) {
-        <#code#>
+        
+        
+        player = Character(color: UIColor.red, size: .init(width: 20, height: 50))
+        
+        addChild(player)
     }
     
     override func update(_ currentTime: TimeInterval) {
